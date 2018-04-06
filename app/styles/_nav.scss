@@ -1,1 +1,32 @@
 // Insert navbar styles here
+
+
+nav {
+	background-color: black;
+	height: 130px !important;
+
+
+	.brand-logo {
+	color: white !important;
+	font-size: 150px !important;
+	margin-top: 35px !important;
+
+	}
+
+	ul {
+		li a {
+			margin-top: 60px !important;
+			color: white !important;
+			font-size: 50px !important;
+		}
+	}
+}
+
+
+.page-footer {
+	background-color: black;
+	height: 130px !important;
+
+
+}
+
