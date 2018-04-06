@@ -2,6 +2,7 @@
 // endbower
 @import 'bower_components/materialize/sass/materialize';
 @import '_nav.scss';
+@import '_slides.scss';
 
 .browserupgrade {
   margin: 0.2em 0;
@@ -12,5 +13,31 @@
 
 body {
   font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  background-color: black;
 }
 
+.slides {
+  font-family: 'Comfortaa', cursive;
+  background-color: black !important;
+
+  h3 {
+  	font-weight: 700;
+  }
+
+  img {
+  	opacity: 0.6;
+  }
+
+}
+
+.slider {
+  .indicators {
+  	li.indicator-item {
+  	  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  	}
+
+  	li.indicator-item.active {
+  	  background-color: #F44336;
+  	}
+  }
+}
