@@ -1,6 +1,7 @@
 // bower:scss
 // endbower
 @import 'bower_components/materialize/sass/materialize';
+@import '_nav.scss';
 
 .browserupgrade {
   margin: 0.2em 0;
@@ -10,8 +11,6 @@
 }
 
 body {
-  background: #fafafa;
   font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-  color: #333;
 }
 
