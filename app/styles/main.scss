@@ -1,10 +1,10 @@
 // bower:scss
 // endbower
 @import 'bower_components/materialize/sass/materialize';
+@import '_timeline.scss';
 @import '_cover.scss';
 @import '_nav.scss';
 @import '_slides.scss';
-@import '_timeline.scss';
 
 .custom-blue {
   background-color: #00c4f3;
