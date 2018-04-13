@@ -3,6 +3,11 @@
 @import 'bower_components/materialize/sass/materialize';
 @import '_nav.scss';
 @import '_slides.scss';
+@import '_timeline.scss';
+
+.custom-blue {
+  background-color: #00c4f3;
+}
 
 .browserupgrade {
   margin: 0.2em 0;
@@ -16,28 +21,12 @@ body {
   background-color: black;
 }
 
-.slides {
+.section-header {
   font-family: 'Comfortaa', cursive;
-  background-color: black !important;
+  padding: 0.2em;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 
-  h3 {
-  	font-weight: 700;
-  }
-
-  img {
-  	opacity: 0.6;
-  }
-
-}
-
-.slider {
-  .indicators {
-  	li.indicator-item {
-  	  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-  	}
-
-  	li.indicator-item.active {
-  	  background-color: #F44336;
-  	}
+  h1, h2, h3, h4, h5 {
+    font-weight: 700;
   }
 }
