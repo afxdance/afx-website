@@ -25,8 +25,12 @@ nav {
 
 .page-footer {
 	background-color: black;
-	height: 130px !important;
+	height: 200px !important;
 
+	ul {
+		li {
+			text-align: left !important;
+		}
+	}
 
 }
-
