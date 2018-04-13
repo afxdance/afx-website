@@ -35,5 +35,6 @@
     }
 
     $('.slider-container').css('height', $('#cover-slider').height());
+    $('.cover-container').css('height', $('#cover-video-container').height());
   }); // end of document ready
 })(jQuery); // end of jQuery name space
