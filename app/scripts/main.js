@@ -25,7 +25,7 @@
     $('.tabs').tabs();
     $('.tooltipped').tooltip();
     $('input.autocomplete').autocomplete({
-      data: {"Apple": null, "Microsoft": null, "Google": 'http://placehold.it/250x250'},
+      data: {'Apple': null, 'Microsoft': null, 'Google': 'http://placehold.it/250x250'},
     });
     $('input[data-length], textarea[data-length]').characterCounter();
 
@@ -33,8 +33,5 @@
     if ($('#tabs-swipe-demo').length) {
       $('#tabs-swipe-demo').tabs({ 'swipeable': true });
     }
-
-    $('.slider-container').css('height', $('#cover-slider').height());
-    $('.cover-container').css('height', $('#cover-video-container').height());
   }); // end of document ready
 })(jQuery); // end of jQuery name space
