@@ -42,4 +42,10 @@
 		padding-bottom: 0;
 		margin-bottom: 0;
 	}
+
+	@media #{$small-and-down} {
+		div.col {
+			height: 18em;
+		}
+	}
 }

@@ -1,6 +1,7 @@
 .timeline-container {
   position: relative;
   background-color: #fcfcfc;
+  padding-bottom: 1px;
 
   .hexa {
     border: 0px;
@@ -180,6 +181,7 @@
     -moz-box-shadow: 0 0 1px rgba(0,0,0,0.20);
     box-shadow: 0 0 1px rgba(0,0,0,0.20);
     z-index: 15;
+    text-align: left;
 
     p {
       margin: 0;
@@ -285,6 +287,11 @@
 
     .direction-r .desc {
       margin: 1em 0 0 0.75em;
+      text-align: left;
+    }
+
+    .direction-l .desc {
+      text-align: right;
     }
   }
 

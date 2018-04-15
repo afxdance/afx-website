@@ -6,6 +6,8 @@
 @import '_slides.scss';
 @import '_timeline.scss';
 @import '_exec.scss';
+@import '_teams.scss';
+@import '_footer.scss';
 
 .custom-blue {
   background-color: #00c4f3;
@@ -39,6 +41,12 @@ body {
 
   h1, h2, h3, h4, h5 {
     font-weight: 700;
+  }
+
+  @media #{$medium-and-down} {
+    h3 {
+      font-size: 1.6em;
+    }
   }
 }
 
