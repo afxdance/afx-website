@@ -1,1 +1,28 @@
-// Insert navbar styles here
+.navbar-fixed {
+	nav {
+		padding-left: 1em;
+		padding-right: 1em;
+
+		p {
+			padding: 0;
+			margin: 0;
+		}
+
+		a {
+			font-weight: 400;
+		}
+	}
+
+	.brand-logo {
+		position: relative;
+		height: 100%;
+
+		img {
+			display: block;
+			position: relative;
+			height: 60%;
+			top: 50%;
+			transform: translateY(-50%);
+		}
+	}
+}

@@ -14,6 +14,10 @@
   background-color: #F44336;
 }
 
+.custom-green {
+  background-color: #4CAF50;
+}
+
 .browserupgrade {
   background: #ccc;
   color: #000;
@@ -35,4 +39,8 @@ body {
   h1, h2, h3, h4, h5 {
     font-weight: 700;
   }
+}
+
+.strong {
+	font-weight: 900;
 }
