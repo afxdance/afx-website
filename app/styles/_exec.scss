@@ -4,7 +4,7 @@
 	padding-bottom: 1em;
 
 	div.col {
-		height: 18em;
+		height: 20em;
 	}
 
 	@media #{$medium-and-down} { 
@@ -45,7 +45,13 @@
 
 	@media #{$small-and-down} {
 		div.col {
-			height: 18em;
+			height: 20em;
+		}
+	}
+
+	@media #{$extra-large-and-up} {
+		div.col {
+			height: 24em;
 		}
 	}
 }
