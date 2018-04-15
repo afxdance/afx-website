@@ -1,13 +1,17 @@
 // bower:scss
 // endbower
 @import 'bower_components/materialize/sass/materialize';
-@import '_timeline.scss';
 @import '_cover.scss';
 @import '_nav.scss';
 @import '_slides.scss';
+@import '_timeline.scss';
 
 .custom-blue {
   background-color: #00c4f3;
+}
+
+.custom-red {
+  background-color: #F44336;
 }
 
 .browserupgrade {
@@ -20,6 +24,7 @@
 body {
   font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
   background-color: black;
+  overflow-x: hidden;
 }
 
 .section-header {
