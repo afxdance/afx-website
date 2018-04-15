@@ -5,6 +5,7 @@
 @import '_nav.scss';
 @import '_slides.scss';
 @import '_timeline.scss';
+@import '_exec.scss';
 
 .custom-blue {
   background-color: #00c4f3;
@@ -43,4 +44,9 @@ body {
 
 .strong {
 	font-weight: 900;
+}
+
+.container .row {
+  margin-left: -.75rem;
+  margin-right: -.75rem;
 }
